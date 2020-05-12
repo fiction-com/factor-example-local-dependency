@@ -1,0 +1,19 @@
+{
+  "name": "my-factor-plugin-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "@factor/core": "^1.0.0"
+  },
+  "devDependencies": {},
+  "factor": {
+    "app": {
+      "name": "Factor Hacker News",
+      "description": "Hacker News clone built with Factor JS"
+    },
+    "scope": "framework",
+    "load": [
+      "app",
+      "server"
+    ]
+  }
+}
