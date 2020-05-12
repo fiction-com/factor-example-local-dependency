@@ -6,11 +6,6 @@
   },
   "devDependencies": {},
   "factor": {
-    "app": {
-      "name": "Factor Hacker News",
-      "description": "Hacker News clone built with Factor JS"
-    },
-    "scope": "framework",
     "load": [
       "app",
       "server"
